@@ -1,10 +1,11 @@
 {
     "name": "axios-practice",
     "version": "1.0.0",
-    "description" : "practice node app using axios",
+    "description": "practice node app using axios",
     "main": "index.js",
-    "scripts":{
-        "go": "npm run"
+    "scripts": {
+        "start": "node src/index.js",
+        "test": "jest"
     },
     "author": "Eddie Crochet",
     "License": "ISC",
@@ -12,7 +13,6 @@
         "axios": "^0.18.0",
         "dotenv": "^8.0.0",
         "jest": "^24.8.0",
-        "nodemon": "^1.19.1"
+        "nodemon": "^1.19.4"
     }
-
 }
